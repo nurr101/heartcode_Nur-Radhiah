@@ -1,0 +1,40 @@
+/* .item {
+    width:1110px
+} */
+@font-face {
+    font-family: millenia;
+    src: url(millenia/Millenia.ttf);
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+.words {
+    font-size: 20px;
+    font-family: millenia; 
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
