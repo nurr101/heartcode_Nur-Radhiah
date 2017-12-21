@@ -5,6 +5,69 @@
     font-family: millenia;
     src: url(millenia/Millenia.ttf);
 }
+@font-face {
+    font-family: rumble_brave;
+    src: url(rumble_brave/rumble_brave.otf);
+}
+@font-face {
+    font-family: swag;
+    src: url(swag/swag.ttf);
+}
+@font-face {
+    font-family: letter;
+    src: url(letter/letter.ttf);
+}
+@font-face {
+    font-family: dabrush;
+    src: url(dabrush/dabrush.ttf);
+}
+@font-face {
+    font-family: title;
+    src: url(title/title.otf);
+}
+@font-face {
+    font-family: history;
+    src: url(history/history.ttf);
+}
+.bold1 {
+    font-family: rumble_brave;
+    font-size: 70px;
+}
+.text1 {
+    font-family: letter;
+    font-size: 30px;
+}
+.title {
+    font-family: title;
+    font-size: 50px;
+}
+.history {
+    font-family: history;
+    font-size: 30px;
+}
+.caption{
+    font-family: letter;
+    font-size: 20px;
+}
+.tablinks{
+    font-family: rumble_brave;
+    font-size: 50px;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 30px;
+    width: 100%;
+}
+.tabcontent{
+    font-family: letter;
+    font-size:30px;
+}
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -13,8 +76,8 @@ hr {
 }
 
 .words {
-    font-size: 20px;
-    font-family: millenia; 
+    font-size: 30px;
+    font-family: dabrush; 
 }
 .thumbnail {
     display: block;
@@ -83,7 +146,8 @@ hr {
 .container1 {
     position: relative;
     margin: 0 auto;
-    text-align: center; /* Center it */
+    text-align: center;
+
 }
 
 .container1 .content1 {
@@ -96,10 +160,29 @@ hr {
 
 }
 
+.container2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: #6B7A8F;
+    color: white;
+}
+
+.orange {
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    margin-right: 15px;
+    margin-left: 20px;
+
+}
 
 
-
-
+.container3 {
+    background-color: #B56357;
+    
+}
 
 
 
