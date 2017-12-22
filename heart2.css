@@ -47,7 +47,7 @@
 }
 .caption{
     font-family: letter;
-    font-size: 20px;
+    font-size: 22px;
 }
 .tablinks{
     font-family: rumble_brave;
@@ -66,7 +66,16 @@
 }
 .tabcontent{
     font-family: letter;
-    font-size:30px;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    animation: fadeEffect 1s;
+}
+
+.tabcontent1 {
+    font-size: 22px;
+
 }
 hr {
     margin-top: 20px;
@@ -111,7 +120,7 @@ hr {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 25px;
     width: 50%;
 }
 
@@ -126,16 +135,14 @@ hr {
 }
 
 /* Style the tab content */
-.tabcontent {
+/* .tabcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-}
+    animation: fadeEffect 1s;
+} */
 
-.tabcontent {
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
 
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
@@ -170,11 +177,11 @@ hr {
 }
 
 .orange {
-    width: 500px;
+    width: 400px;
     height: 450px;
     object-fit: cover;
     margin-right: 15px;
-    margin-left: 20px;
+    margin-left: 70px;
 
 }
 
